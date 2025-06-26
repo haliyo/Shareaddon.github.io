@@ -43,3 +43,18 @@ p {
 .button:hover {
     background: #45a049;
 }
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.button.tiktok {
+  background-color: #000000;
+}
+
+.button.youtube {
+  background-color: #FF0000;
+}
